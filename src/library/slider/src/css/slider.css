@@ -1,0 +1,52 @@
+/* CSS Document */
+/* Effects */
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+/* Slider */
+#slider-nav {
+	position:absolute;
+    margin-top: 1em;
+	left: 21px;
+	top:10px;
+	height:33px;
+	text-align:left;
+	z-index:3;
+}
+
+#slider-nav img {
+	margin-right: 0.5em;
+	cursor:pointer;
+}
+	
+.slider {
+	width: 500px;
+	margin:0px;
+	overflow: hidden;
+}
+
+.slider ul {
+	width: 10000px;
+	list-style: none;	
+	padding: 0px;
+	margin-left:0px;
+}
+
+.slider li {
+	float: left;
+	background-image:none;
+	padding-left: 0px;
+}

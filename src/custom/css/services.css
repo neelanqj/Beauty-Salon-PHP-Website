@@ -1,0 +1,127 @@
+@media (min-width:1200px) {
+	.close-details {
+		position:fixed;
+		top:10px;
+		left:642px;
+		width:25px;
+	}
+	
+	#column-left{
+		position:fixed;
+		width:300px;
+		padding:31px;
+		padding-left:70px;
+		padding-top:10px;
+	}
+	
+	.details {
+		position:absolute;
+		width:260px;
+		left:430px;
+		height:95vh;
+		overflow-y:scroll;
+		padding-top:20px;
+		padding-bottom:0px;
+		padding-left:20px;
+		padding-right:20px;
+		background-image:url(../img/bg-white.png);	
+	}	
+	
+	#mobileshadow {
+		position:fixed;
+		min-height:0%;
+		min-width:0%;
+		opacity:0;
+		display:none;		
+	}
+}
+
+@media (max-width: 1200px), handheld{
+	.close-details {
+		position:fixed;
+		top:39px;
+		right:4%;
+		width:25px;
+	}
+	
+	#column-left{
+		position:relative;
+		margin:21px;
+		text-align:center;
+		background-image:url(../img/bg-white.png);
+		padding:21px;
+	}
+	
+	#column-left ul {
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+	}
+			
+	.details {
+		position:fixed;
+		top:21px;
+		margin:0px !important;
+		padding:21px;
+		left:0px;
+		height:84%;
+		width:100%;
+		overflow-y:scroll;
+		background-color:#CCC;
+		z-index:10;
+	}
+	
+	
+	#mobileshadow {
+		position:fixed;
+		min-height:100%;
+		min-width:100%;
+		background-color:#000;
+		opacity:0.8;
+		top:0px;
+		margin:0px;
+		z-index:3;
+		display:none;		
+	}
+
+}
+
+#body {
+	position:fixed;
+	top:0px;
+	min-height:100%;
+	min-width:100%;
+	background-image:url(../img/slider/2.jpg);
+	background-size:cover;
+	background-repeat:repeat;
+	margin:0px;
+}
+
+
+#column-left a {
+	color:#903;	
+}
+
+
+h1, .title h1 {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:black;
+	font-size: 23px;
+	font-weight: 200;
+}
+
+a {
+	color:#FFF;	
+}
+
+.details {
+	display:none;	
+}
+
+.details img {
+	width:80%;
+}
+
+.details table {
+	font-size:12px;	
+}

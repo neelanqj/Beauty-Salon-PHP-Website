@@ -1,0 +1,101 @@
+
+@media (min-width:1200px) {
+	.details-box {
+		position:absolute;
+		color:#FFF;
+		top:350px;
+		left:731px;
+		width:500px;
+		padding:12px;
+	}
+}
+
+@media (max-width: 1200px), handheld{
+	.details-box {
+		position:relative;
+		color:#FFF;
+		margin:21px;
+		padding:12px;
+		margin-top:21px;
+	}
+}
+
+#body {
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	background-image:url(../img/slider/4.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	z-index:-1;
+}
+
+#services {
+	position:absolute;
+	top:320px;
+	right:20px;
+	width:1200px;
+	display:none;
+}
+
+.service-box {
+	position:relative;
+	display:inline-block;
+	width:210px !important;
+	height:300px;
+	overflow:hidden;
+	margin:10px !important;
+	background-color:#C6C;	
+	background-size:cover !important;
+}
+
+#service-fat {
+	background-image:url(../img/body.jpg);
+}
+
+#service-age {
+	background-image:url(../img/age.jpg);
+}
+
+#service-cosmetic {
+	background-image:url(../img/cosmetic.jpg);
+}
+
+.tile-top {
+	position: absolute;
+	font-size: 14px;
+	color:#906;	
+	padding:10px;
+	width: 90%;
+	height: 155px;
+}
+
+.tile-top>h1 {
+	font-size: 17px;
+	color:#906;	
+	font-weight: 700;
+}
+
+.tile-bottom {
+	position: absolute;
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFF;
+	bottom: 0px;
+	left:0px;
+	width: 192px;
+	height: 40px;
+	padding-top: 21px;
+	padding-bottom: 10px;
+	padding-left: 24px;
+	background: #000;
+	background-image: url(../img/tile-link.png);
+	background-repeat: no-repeat;
+	background-position:right;
+	background-size: auto;
+}
+
+#about {
+}

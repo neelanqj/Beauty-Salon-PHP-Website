@@ -1,0 +1,103 @@
+@media (min-width:1200px) {
+	#products{
+		position:absolute;
+		background-position:top;
+		height:98vh;
+		width:560px;
+		overflow-y:scroll;
+		overflow-x:hidden;
+		top:0px;
+		left:0px;
+		padding:30px;
+	}
+	
+	#product-desc{
+		position:fixed;
+		width:500px !important;
+		top:350px;
+		left:731px;
+		padding:12px !important;
+		color:#FFF;	
+		z-index:93;
+	}
+}
+
+@media (max-width: 1200px), handheld{
+	#products{
+		position:relative;
+		background-position:top;
+		width:100%;
+		padding:30px;
+	}
+	
+	#product-desc{
+		position:relative;
+		width:100%;
+		padding:12px !important;
+		color:#FFF;	
+		z-index:93;
+	}
+}
+
+.col1 {
+	width:61px !important;
+	height:78px;
+	display:inline-block;
+}
+
+.col2 {
+	padding-left:30px;
+	vertical-align:central;
+	height:78px;
+}
+
+.col3 {
+	width:40%;
+	height:78px;
+}
+
+.prod-row {
+	position:relative;
+	display:inline-block;
+	width:100%;
+	vertical-align:top;
+	margin:0px;
+	padding:5px;
+	background-color:#FFF;
+	overflow:hidden;
+}
+
+.prod-col {
+	display:inline-block;
+	width:66%;
+	vertical-align:top;
+	height:78px;
+}
+
+.price-col{
+	text-align:right;	
+	width:14%;
+	height:78px;
+}
+
+/* CSS Document */
+#body{
+	position:fixed;
+	top:0px;
+	background-size:cover;
+	background-image:url(../img/deadsea-bg.jpg);
+	min-width:100%;
+	min-height:100%;
+	z-index:-1;
+}
+
+
+td {
+	padding:10px;
+}
+
+#products table {
+	background-color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}

@@ -1,0 +1,30 @@
+/* CSS Document */
+
+#footer {
+	text-align:center;	
+}
+
+#left_col {
+	position:relative;
+	display:inline-block;
+	min-width:31%;
+	max-width:43%;
+	overflow:hidden;
+    vertical-align: top; 
+	margin-bottom:50px;
+	margin-right:50px;
+}
+
+#right_col {
+	position:relative;
+	display:inline-block;
+	min-width:31%;	
+	overflow:hidden;
+    vertical-align: top;
+	margin-bottom:50px;
+}
+
+#main {
+	margin:auto auto;	
+	width:100%;
+}
